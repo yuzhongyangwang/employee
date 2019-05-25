@@ -1,14 +1,10 @@
-# Spring Boot基础
+﻿# Spring Boot基础
 
 ## 练习描述
   本题要求使用Spring boot来完成对Employee `CURD(增删改查)` API接口的实现。
   - 要求每一个Employee包含 `id`、`name`、`age`、`gender`四个字段。
   - 至少需要完成查询所有 `Employee` 的API接口，并返回一个包含所有Employee的JSON，要求接口路径：`http://localhost:8080/employees`
   - 要求使用`Postman`来向目标接口路径发送请求，获取Response，Response JSON格式如下:
-         insert into employee values(0,19,“女”,“小红”);
-         insert into employee values(3,15,“男”,“小智”);
-         insert into employee values(4,16,“男”,“小刚”);
-         insert into employee values(0,15,“女”,“小霞”);
       ```json
         [
           {
